@@ -1,6 +1,5 @@
 #include "ros/ros.h"
 
-#include <SerialStream.h>
 #include <iostream>
 #include <math.h>
 
