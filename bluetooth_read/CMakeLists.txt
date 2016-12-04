@@ -12,5 +12,4 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 
 add_executable(blue_read src/blue_read.cpp)
 target_link_libraries(blue_read ${catkin_LIBRARIES})
-target_link_libraries(blue_read serial)
 add_dependencies(blue_read blue_read_generate_messages_cpp)
